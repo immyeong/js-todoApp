@@ -1,0 +1,98 @@
+body {
+    background-color: lightcoral;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+#header {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+
+}
+
+#header a {
+    margin: 5%;
+    text-decoration: none;
+    color: white;
+    text-wrap: nowrap;
+}
+
+#header button {
+    margin: 5%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+    text-wrap: nowrap;
+
+}
+
+#header button:hover {
+    opacity: 0.7;
+}
+
+.todo-list{
+    padding-top: 100px;
+}
+
+.item{
+    background-color: lightblue;
+    border-radius: 10px;
+    margin : 10px 10% 10px 10%;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 10% 1fr 15%;
+    align-items: center;
+    transition: transform 0.5s;
+}
+
+.item:hover{
+    transform: scale(1.05);
+}
+
+.completed{
+    opacity: 0.7;
+}
+
+.input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.input:focus{
+    border-bottom : 1px solid white;
+}
+
+.input-text{
+    text-decoration-line: line-through;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+}
+
+.options button{
+    background-color: transparent;
+    border: none;
+    color: crimson;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.options button:hover {
+    opacity: 1;
+}
+
