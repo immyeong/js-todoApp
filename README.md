@@ -1,6 +1,6 @@
-Todo App 구현
+## Todo App 구현
 
--javascript
+### javascript
  - input 요소와 button 요소, div 요소에 접근하여 createElement메서드를 사용하여 요소 생성
  - 각 요소마다 event 부여
   - inputEl
